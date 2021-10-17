@@ -1,46 +1,43 @@
 /* === MAIN SCSS STYLE FILE === */
 
 /* Import of all SCSS variables */
-@import 'general/variables';
+@import "general/variables";
 
 /* Import of all main animations */
-@import 'layout/animations/animation';
+@import "layout/animations/animation";
 
 /* Import of all main elements */
-@import 'layout/elements/preloader/preloader';
-@import 'layout/elements/header/header';
-@import 'layout/elements/footer/footer';
+@import "layout/elements/preloader/preloader";
+@import "layout/elements/header/header";
+@import "layout/elements/footer/footer";
 
 /* Import of all mini-features SCSS */
-@import 'layout/features/image-hover-zoom/img-hover-zoom';
-@import 'layout/features/page-transitions/page-transitions';
-@import 'layout/features/progress-loader/progress-loader';
-@import 'layout/features/smooth-scroll/smooth-scroll';
-@import 'layout/features/image-hover-zoom/img-hover-zoom';
-@import 'layout/features/page-transitions/page-transitions';
-@import 'layout/features/progress-loader/progress-loader';
-@import 'layout/features/smooth-scroll/smooth-scroll';
+@import "layout/features/image-hover-zoom/img-hover-zoom";
+@import "layout/features/page-transitions/page-transitions";
+@import "layout/features/progress-loader/progress-loader";
+@import "layout/features/smooth-scroll/smooth-scroll";
+@import "layout/features/image-hover-zoom/img-hover-zoom";
+@import "layout/features/page-transitions/page-transitions";
+@import "layout/features/progress-loader/progress-loader";
+@import "layout/features/smooth-scroll/smooth-scroll";
 
 /* Import of helpers SCSS*/
-@import 'layout/helpers/helpers';
+@import "layout/helpers/helpers";
 
 /* Import of website sections */
-@import 'layout/sections/crossed-content/crossed-content';
-@import 'layout/sections/fullscreen-menu/fullscreen-menu';
-@import 'layout/sections/hero-background/hero-bg';
-@import 'layout/sections/video-background/video-bg';
+@import "layout/sections/crossed-content/crossed-content";
+@import "layout/sections/fullscreen-menu/fullscreen-menu";
+@import "layout/sections/hero-background/hero-bg";
+@import "layout/sections/video-background/video-bg";
 
 /* Import of website pages */
-@import 'layout/pages/404/404';
-@import 'layout/pages/about-us/about-us';
-@import 'layout/pages/coming-soon/coming-soon';
-@import 'layout/pages/contact/contact';
-
+@import "layout/pages/404/404";
+@import "layout/pages/about-us/about-us";
+@import "layout/pages/coming-soon/coming-soon";
+@import "layout/pages/contact/contact";
 
 /* Main Body and html colors */
-body, html {
-    background-color: $main-background-color;
+body,
+html {
+  background-color: $main-background-color;
 }
-
-
-

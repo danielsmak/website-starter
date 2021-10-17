@@ -1,0 +1,22 @@
+{
+  "name": "website-starter",
+  "version": "1.0.0",
+  "description": "Starter pack for developing website with HTML5 and SCSS",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsmak/website-starter.git"
+  },
+  "author": "Daniels Makarenko and Jaroslav Shirinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsmak/website-starter/issues"
+  },
+  "homepage": "https://github.com/danielsmak/website-starter#readme",
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}
