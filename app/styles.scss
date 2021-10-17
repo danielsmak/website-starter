@@ -1,40 +1,40 @@
 /* === MAIN SCSS STYLE FILE === */
 
 /* Import of all SCSS variables */
-@import "general/variables";
+@import "./scss/general/variables";
+
+/* Import of all fonts */
+@import "./scss/general/fonts";
 
 /* Import of all main animations */
-@import "layout/animations/animation";
+@import "./scss/animations/animation";
 
 /* Import of all main elements */
-@import "layout/elements/preloader/preloader";
-@import "layout/elements/header/header";
-@import "layout/elements/footer/footer";
+@import "./scss/layout/elements/preloader/preloader";
+@import "./scss/layout/elements/header/header";
+@import "./scss/layout/elements/footer/footer";
 
 /* Import of all mini-features SCSS */
-@import "layout/features/image-hover-zoom/img-hover-zoom";
-@import "layout/features/page-transitions/page-transitions";
-@import "layout/features/progress-loader/progress-loader";
-@import "layout/features/smooth-scroll/smooth-scroll";
-@import "layout/features/image-hover-zoom/img-hover-zoom";
-@import "layout/features/page-transitions/page-transitions";
-@import "layout/features/progress-loader/progress-loader";
-@import "layout/features/smooth-scroll/smooth-scroll";
+@import "./scss/features/image-hover-zoom/img-hover-zoom";
+@import "./scss/features/page-transitions/page-transitions";
+@import "./scss/features/progress-loader/progress-loader";
+@import "./scss/features/smooth-scroll/smooth-scroll";
+@import "./scss/features/image-hover-zoom/img-hover-zoom";
 
 /* Import of helpers SCSS*/
-@import "layout/helpers/helpers";
+@import "./scss/helpers/helpers";
 
 /* Import of website sections */
-@import "layout/sections/crossed-content/crossed-content";
-@import "layout/sections/fullscreen-menu/fullscreen-menu";
-@import "layout/sections/hero-background/hero-bg";
-@import "layout/sections/video-background/video-bg";
+@import "./scss/layout/sections/hero-background/hero-bg";
+@import "./scss/layout/sections/video-background/video-bg";
+@import "./scss/layout/sections/fullscreen-menu/fullscreen-menu";
+@import "./scss/layout/sections/crossed-content/crossed-content";
 
 /* Import of website pages */
-@import "layout/pages/404/404";
-@import "layout/pages/about-us/about-us";
-@import "layout/pages/coming-soon/coming-soon";
-@import "layout/pages/contact/contact";
+@import "./scss/layout/pages/404/404";
+@import "./scss/layout/pages/about-us/about-us";
+@import "./scss/layout/pages/coming-soon/coming-soon";
+@import "./scss/layout/pages/contact/contact";
 
 /* Main Body and html colors */
 body,
