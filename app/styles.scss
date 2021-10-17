@@ -1,9 +1,11 @@
+/* === VARIABLES === */
+
 @import 'layout/footer/footer';
+@import 'general/variables';
 
-body {
-    background-color: $test;
+
+/* Main Body and html colors */
+body, html {
+    background-color: $main-background-color;
 }
 
-html {
-    padding: 10;
-}
