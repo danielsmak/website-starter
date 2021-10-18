@@ -1,6 +1,12 @@
 /* === MAIN APP JS FILE === */
 
-/* Preloder */
+/* Preloader */
+
+
+(function () {
+    
+})()
+
 
 /* Full screen menu */
 
