@@ -1,1 +1,9 @@
 /* === HELPERS === */
+
+/* Parallax effect */
+.parallax {
+    position: relative !important;
+    background-size: cover !important;
+    overflow: hidden;
+    background-attachment: fixed !important;
+}

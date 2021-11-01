@@ -36,8 +36,14 @@
 @import "./scss/layout/pages/coming-soon/coming-soon";
 @import "./scss/layout/pages/contact/contact";
 
-/* Main Body and html colors */
+/* Main Body and html styles */
 body,
 html {
-  height: 100vh;
+  height: 100%;
 }
+
+/* Sections style */
+section {
+    height: 100vh;
+    width: 100%;  
+} 

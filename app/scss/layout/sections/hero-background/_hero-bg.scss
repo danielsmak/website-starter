@@ -1,1 +1,29 @@
-/* === HERO-BACKGROUND PARALLAX === */
+/* === HERO-BACKGROUND === */
+
+.hero-bg {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("https://images.pexels.com/photos/5552810/pexels-photo-5552810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-color: $main-background-color;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+//Showing another picture for mobile devices
+@media (max-width: 576px) {  
+    .hero-bg {
+        width: 100%;
+        height: 100vh;
+        background-image: url("https://images.pexels.com/photos/10013078/pexels-photo-10013078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        overflow: hidden;
+        background-color: $main-background-color;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+
+
