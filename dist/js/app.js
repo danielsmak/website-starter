@@ -6,9 +6,7 @@ const images = document.images; //get access to all document images
 let imagesTotalAmount = images.length; //calculate length of all html images
 let imagesLoadedAmount = 0; //define 0 as a starting point for images that are to be loaded 
 const preloader = document.getElementById('page-preloader'); // get access to the the preloader html element
-const imageCounter = document.getElementById('load_perc'); // get access to the the image-counter html element
-
-
+const imageCounter = document.getElementById('load-perc'); // get access to the the image-counter html element
 
 for (var i = 0; i < imagesTotalAmount; i++) { 
     imageCloned = new Image(); // use new Image() for IE Support 
@@ -17,13 +15,14 @@ for (var i = 0; i < imagesTotalAmount; i++) {
     imageCloned.src = images[i].src;
 }
 
+console.log(imagesTotalAmount);
+console.log(imagesLoadedAmount);
 
 /* for (let i = 0 ; I < imagesTotalAmount; i++) {  // Without IE Support  
     images[i].onload = imageLoaded;
     images[i].onerror = imageLoaded;
     } 
 */
-
 
 function imageLoaded() { // Function imageLoaded that is called above
     //console.log(imagesTotalAmount);
@@ -49,8 +48,6 @@ function imageLoaded() { // Function imageLoaded that is called above
         }, 1000); //if total amount of images are less or equal 0 - then remove preloader as well since there are no images to preload.
     }
 })();
-
-
 
 /* Full screen menu */
 
