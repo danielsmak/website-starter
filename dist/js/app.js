@@ -6,7 +6,7 @@ const images = document.images; //get access to all document images
 let imagesTotalAmount = images.length; //calculate length of all html images
 let imagesLoadedAmount = 0; //define 0 as a starting point for images that are to be loaded 
 const preloader = document.getElementById('fs-preloader'); // get access to the the preloader html element
-const imageCounter = document.getElementById('perc-counter'); // get access to the the image-counter html element
+const imageCounter = document.getElementById('fullscreen-preloader__container__perc-counter'); // get access to the the image-counter html element
 
 for (var i = 0; i < imagesTotalAmount; i++) { 
     imageCloned = new Image(); // use new Image() for IE Support 
