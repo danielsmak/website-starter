@@ -1,6 +1,6 @@
 /* === PRELOADER === */
 
-.preloader {
+.fullscreen-preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,7 +14,7 @@
   transition: 1s all;
   visibility: visible;
 
-  .loader {
+  .fullscreen-preloader__container {
     width: 100%;
     height: 75px;
     left: 50%;
@@ -24,7 +24,7 @@
     line-height: 76px;
     font-size: 70px;
   }
-  &.done {
+  &.fullscreen-preloader--hidden {
     opacity: 0;
     visibility: hidden;
   }

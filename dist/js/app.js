@@ -5,8 +5,8 @@
 const images = document.images; //get access to all document images
 let imagesTotalAmount = images.length; //calculate length of all html images
 let imagesLoadedAmount = 0; //define 0 as a starting point for images that are to be loaded 
-const preloader = document.getElementById('page-preloader'); // get access to the the preloader html element
-const imageCounter = document.getElementById('load-perc'); // get access to the the image-counter html element
+const preloader = document.getElementById('fs-preloader'); // get access to the the preloader html element
+const imageCounter = document.getElementById('perc-counter'); // get access to the the image-counter html element
 
 for (var i = 0; i < imagesTotalAmount; i++) { 
     imageCloned = new Image(); // use new Image() for IE Support 
@@ -33,8 +33,8 @@ function imageLoaded() { // Function imageLoaded that is called above
     to the html. Use innerHTML to show the whole thing in the div. */
     if (imagesLoadedAmount >= imagesTotalAmount) {
         setTimeout(function () {
-            if (!preloader.classList.contains('done'))
-                preloader.classList.add('done');
+            if (!preloader.classList.contains('fullscreen-preloader--hidden'))
+                preloader.classList.add('fullscreen-preloader--hidden');
         }, 1000); //if images that were loaded are greater or equal the total amount of images - then add class "done" to remove preloader.
     }
 }
@@ -43,8 +43,8 @@ function imageLoaded() { // Function imageLoaded that is called above
 
     if (imagesTotalAmount <= 0) {
         setTimeout(function () {
-            if (!preloader.classList.contains('done'))
-                preloader.classList.add('done');
+            if (!preloader.classList.contains('fullscreen-preloader--hidden'))
+                preloader.classList.add('fullscreen-preloader--hidden');
         }, 1000); //if total amount of images are less or equal 0 - then remove preloader as well since there are no images to preload.
     }
 })();
